@@ -1,62 +1,62 @@
-# Chapter 3 Quiz - Introduction to SQL
+# Chapter 2 Quiz - Introduction to Relational Model
 
 ## True or False Questions
 
-1. SQL is a procedural language used for defining the structure of a database.
+1. **True or False**: In a relational model, the order of tuples (rows) in a relation is significant.
    <details>
    <summary>Answer</summary>
-   False - SQL is a declarative language used for querying and managing data.
+   False - In a relational model, the order of tuples is irrelevant.
    </details>
 
-2. The SQL DML (Data Manipulation Language) allows users to query and modify data in the database.
-   <details>
-   <summary>Answer</summary>
-   True
-   </details>
-
-3. The `CREATE TABLE` statement is part of the SQL Data Definition Language (DDL).
+2. **True or False**: A candidate key is a minimal superkey.
    <details>
    <summary>Answer</summary>
    True
    </details>
 
-4. The `WHERE` clause is used to filter rows that do not meet the specified condition in an SQL query.
+3. **True or False**: A database schema is the structure or logical design of a database, while a database instance is the data within the database at a specific point in time.
    <details>
    <summary>Answer</summary>
    True
    </details>
 
-5. SQL allows duplicate rows in query results unless the keyword `DISTINCT` is used.
+4. **True or False**: The projection operation in relational algebra removes duplicate rows in the result.
    <details>
    <summary>Answer</summary>
    True
    </details>
 
-6. `VARCHAR(n)` is a fixed-length character data type in SQL.
-   <details>
-   <summary>Answer</summary>
-   False - `VARCHAR(n)` is a variable-length character data type.
-   </details>
-
-7. A foreign key constraint ensures that a value in one table corresponds to a value in another table.
+5. **True or False**: The Cartesian product operation combines every tuple in one relation with every tuple in another relation.
    <details>
    <summary>Answer</summary>
    True
    </details>
 
-8. SQL supports arithmetic operations in the `SELECT` clause.
+6. **True or False**: Foreign key constraints enforce referential integrity between relations.
    <details>
    <summary>Answer</summary>
    True
    </details>
 
-9. The `UPDATE` statement is used to add new rows to a table.
+7. **True or False**: The union operation in relational algebra can be applied to relations with different sets of attributes.
    <details>
    <summary>Answer</summary>
-   False - The `INSERT` statement is used to add new rows.
+   False - The union operation requires relations with the same set of attributes.
    </details>
 
-10. The `HAVING` clause filters rows after the aggregation operation has been applied.
+8. **True or False**: Relational algebra is a non-procedural language.
+   <details>
+   <summary>Answer</summary>
+   False - Relational algebra is a procedural language.
+   </details>
+
+9. **True or False**: Null values are allowed in all domains in the relational model.
+   <details>
+   <summary>Answer</summary>
+   True
+   </details>
+
+10. **True or False**: The rename operation in relational algebra is used to assign a temporary name to the result of an expression.
     <details>
     <summary>Answer</summary>
     True
@@ -64,102 +64,102 @@
 
 ## Multiple Choice Questions
 
-1. Which of the following SQL keywords is used to eliminate duplicate rows in query results?
-   - a) `DISTINCT`
-   - b) `UNIQUE`
-   - c) `DELETE`
-   - d) `ALL`
+1. Which of the following best describes a relation schema?
+   - a) A snapshot of the data in the database at a specific time
+   - b) The structure or design of a relation, including attribute names and types
+   - c) A collection of tables with no specified attributes
+   - d) The set of all keys in a relation
    <details>
    <summary>Answer</summary>
-   a) `DISTINCT`
+   b) The structure or design of a relation, including attribute names and types
    </details>
 
-2. What is the correct SQL keyword for defining a primary key constraint in a table?
-   - a) `FOREIGN KEY`
-   - b) `PRIMARY KEY`
-   - c) `NOT NULL`
-   - d) `CHECK`
+2. What is a superkey?
+   - a) A set of attributes that uniquely identifies tuples in a relation
+   - b) A key that has no duplicate attributes
+   - c) A minimal set of attributes used to identify a tuple
+   - d) A key that can reference tuples in another relation
    <details>
    <summary>Answer</summary>
-   b) `PRIMARY KEY`
+   a) A set of attributes that uniquely identifies tuples in a relation
    </details>
 
-3. Which of the following clauses is used to filter query results based on a condition?
-   - a) `ORDER BY`
-   - b) `GROUP BY`
-   - c) `WHERE`
-   - d) `HAVING`
+3. Which relational algebra operation would you use to retrieve only specific columns from a relation?
+   - a) Select
+   - b) Project
+   - c) Union
+   - d) Cartesian Product
    <details>
    <summary>Answer</summary>
-   c) `WHERE`
+   b) Project
    </details>
 
-4. The SQL `JOIN` operation corresponds to which relational algebra operation?
-   - a) Cartesian product
-   - b) Projection
-   - c) Selection
-   - d) Union
+4. The Cartesian product of two relations:
+   - a) Returns only tuples with matching values in both relations
+   - b) Combines every tuple in one relation with every tuple in another relation
+   - c) Combines only distinct tuples in both relations
+   - d) Requires a join condition to execute
    <details>
    <summary>Answer</summary>
-   a) Cartesian product
+   b) Combines every tuple in one relation with every tuple in another relation
    </details>
 
-5. What is the function of the `GROUP BY` clause in SQL?
-   - a) It filters rows based on a condition.
-   - b) It orders the results.
-   - c) It groups rows sharing a property so that aggregate functions can be applied.
-   - d) It combines results from multiple queries.
+5. Which operation would you use in relational algebra to eliminate duplicate rows?
+   - a) Union
+   - b) Select
+   - c) Project
+   - d) Rename
    <details>
    <summary>Answer</summary>
-   c) It groups rows sharing a property so that aggregate functions can be applied.
+   c) Project
    </details>
 
-6. Which SQL clause is used to sort the results of a query?
-   - a) `ORDER BY`
-   - b) `GROUP BY`
-   - c) `WHERE`
-   - d) `HAVING`
+6. In relational algebra, which operator is used to filter tuples that satisfy a given predicate?
+   - a) Project
+   - b) Select
+   - c) Union
+   - d) Cartesian Product
    <details>
    <summary>Answer</summary>
-   a) `ORDER BY`
+   b) Select
    </details>
 
-7. What SQL command is used to remove a table from a database?
-   - a) `DELETE`
-   - b) `REMOVE`
-   - c) `DROP`
-   - d) `TRUNCATE`
+7. What is the purpose of a foreign key in a relational model?
+   - a) To uniquely identify each tuple in a relation
+   - b) To link records across different relations, enforcing referential integrity
+   - c) To serve as an alternative name for attributes
+   - d) To filter tuples in a relation based on a condition
    <details>
    <summary>Answer</summary>
-   c) `DROP`
+   b) To link records across different relations, enforcing referential integrity
    </details>
 
-8. In SQL, which of the following is **not** an aggregate function?
-   - a) `SUM`
-   - b) `AVG`
-   - c) `COUNT`
-   - d) `JOIN`
+8. Which of the following is **not** a basic operation in relational algebra?
+   - a) Union
+   - b) Set difference
+   - c) Aggregation
+   - d) Cartesian product
    <details>
    <summary>Answer</summary>
-   d) `JOIN`
+   c) Aggregation
    </details>
 
-9. Which SQL data type would be best suited for storing a fixed-length string of exactly 10 characters?
-   - a) `VARCHAR(10)`
-   - b) `CHAR(10)`
-   - c) `TEXT`
-   - d) `INT`
+9. The `set-difference` operation in relational algebra:
+   - a) Returns tuples present in one relation but not in the other
+   - b) Combines tuples from both relations
+   - c) Filters tuples based on a predicate
+   - d) Returns tuples present in both relations
    <details>
    <summary>Answer</summary>
-   b) `CHAR(10)`
+   a) Returns tuples present in one relation but not in the other
    </details>
 
-10. Which SQL clause is used to filter groups of rows after they have been formed by the `GROUP BY` clause?
-    - a) `WHERE`
-    - b) `ORDER BY`
-    - c) `HAVING`
-    - d) `LIMIT`
+10. Which of the following relational algebra operations combines relations based on common attributes?
+    - a) Join
+    - b) Union
+    - c) Set-difference
+    - d) Select
     <details>
     <summary>Answer</summary>
-    c) `HAVING`
+    a) Join
     </details>
