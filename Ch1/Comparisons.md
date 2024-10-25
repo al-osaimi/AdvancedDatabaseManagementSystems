@@ -74,3 +74,12 @@ This comparison explores the distinct roles of transaction management and query 
 | Schema Impact                      | Changes the structure of the database (creates or modifies tables, indexes, etc.). | Does not alter the database structure; only modifies the data.                |
 | Execution                          | Executes commands that impact the metadata or structure of the database. | Executes commands that impact the actual data stored in the database.         |
 | Example                            | `CREATE TABLE instructor (ID char(5), name varchar(20));`    | `SELECT name FROM instructor WHERE dept_name = 'Comp. Sci.';`                 |
+
+
+
+
+## Levels of Abstraction
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2820f3d0-3f39-49b4-a5f6-1d41dfe57c8b" />
+</p>
