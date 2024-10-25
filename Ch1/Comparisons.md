@@ -1,6 +1,18 @@
 
 <br/>
 
+## Primary key and Foreign key
+
+|                        | Primary Key                                                                 | Foreign Key                                                                                                                                           |
+|------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Definition**          | A primary key is a column or set of columns that uniquely identifies each row in a table.                                | A foreign key is a column or set of columns that establishes a link to a primary key in another table.                                                  |
+| **Uniqueness**          | Primary key values must be unique within the table.                                                               | Foreign key values may contain duplicate values within the table.                                                                                      |
+| **Purpose**             | Primary keys are used to identify and access individual rows in a table.                                          | Foreign keys are used to establish relationships between tables, enforcing referential integrity.                                                      |
+| **Constraints**         | Primary keys have an inherent NOT NULL constraint, meaning they cannot contain NULL values.                        | Foreign keys can contain NULL values, allowing for optional relationships.                                                                             |
+| **Table**               | A table can have only one primary key.                                                                             | A table can have multiple foreign keys, depending on the relationships it has with other tables.                                                       |
+
+<br/>
+
 ## Declarative vs. Procedural DML
 
 There are basically two types of data-manipulation language:
