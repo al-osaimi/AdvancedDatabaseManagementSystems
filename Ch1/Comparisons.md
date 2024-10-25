@@ -51,8 +51,7 @@ This comparison explores the distinct roles of transaction management and query 
 | Focus                            | Ensures consistency, atomicity, and concurrency of transactions. | Focuses on optimizing and executing queries efficiently.                    |
 | Key Components                   | Transaction manager, concurrency control manager.            | DDL  interpreter, DML compiler , query evaluation engine.                      |
 | Responsibilities                 | Handles multiple transactions, ensuring no conflicts or data inconsistency. | Translates and optimizes queries for efficient data retrieval.              |
-| Example                          | Ensuring funds are transferred correctly between two accounts. | Fetching all customer details from the database efficiently.   
-             |
+| Example                          | Ensuring funds are transferred correctly between two accounts. | Fetching all customer details from the database efficiently.   |
  
  ## DDL vs. DML
 
