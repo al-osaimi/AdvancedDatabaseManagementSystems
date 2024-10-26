@@ -200,6 +200,8 @@ Extends techniques developed by machine-learning communities to run them on very
 #### 3. Business Intelligence (BI)
 The term business intelligence (BI) is synonym for data analytics.
 
+Business intelligence (BI) uses business analytics, data mining, data visualization, and data tools **to help organizations make better data-driven decisions.**
+
 #### 4. Data Warehousing
 
 Warehouse is a repository (archive) of information gathered from multiple sources, stored under a unified schema, at a single site.
