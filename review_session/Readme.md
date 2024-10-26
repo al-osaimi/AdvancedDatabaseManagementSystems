@@ -214,8 +214,15 @@ OLAP is optimized for complex **data analysis and reporting**.
 
  OLTP is optimized for **transactional processing** and real-time updates.
 
+#### 7. Data transformation and data cleansing
+
+Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.
+
+- E.g. correct mistakes in addresses (misspellings, zip code errors)
+
 </details>
 
+<hr/>
 
 ## Application Development 
 
@@ -226,6 +233,8 @@ OLAP is optimized for complex **data analysis and reporting**.
   - Hash all passwords. 
 
 </details>
+
+<hr/>
 
 ## Normalization
 
@@ -293,8 +302,7 @@ Write SQL queries to do the following:
 1. Display the salary band for each employee:
 
 ```sql
-SELECT ID, salary_band
-FROM (
+
     SELECT 
         ID,
         CASE
@@ -304,7 +312,7 @@ FROM (
             ELSE 'A'
         END AS salary_band
     FROM employees
-) AS categorized_employees;
+
 ```
 
 2. Find the number of employees in each salary band:
