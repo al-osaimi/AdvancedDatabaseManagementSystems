@@ -195,12 +195,17 @@ Techniques are key to finding patterns in data and making predictions.
 
 #### 2. Data mining 
 
-Extends techniques developed by machine-learning communities to run them on very large datasets.
+Data mining is the process of semi-automatically analyzing large databases to find useful patterns.
 
+Types of Data Mining Tasks:
+ - Prediction based on past history
+ - Descriptive Patterns
+   
 #### 3. Business Intelligence (BI)
-The term business intelligence (BI) is synonym for data analytics.
 
 Business intelligence (BI) uses business analytics, data mining, data visualization, and data tools **to help organizations make better data-driven decisions.**
+
+*The term business intelligence (BI) is synonym for data analytics.*
 
 #### 4. Data Warehousing
 
@@ -208,7 +213,9 @@ Warehouse is a repository (archive) of information gathered from multiple source
 
 #### 5. Online analytical processing (OLAP)
 
-OLAP is optimized for complex **data analysis and reporting**.
+Interactive analysis of data, allowing data to be summarized and viewed in different ways in an online fashion.
+
+*OLAP is optimized for complex **data analysis and reporting**.*
 
 #### 6. Online transaction processing (OLTP) 
 
