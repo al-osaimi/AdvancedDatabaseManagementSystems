@@ -238,8 +238,11 @@ We may have to use null values to represent some of the possible meaningful rela
 There is the problem of repetition of information.
 </details>
 
+<hr/>
+
 ## Indexing
 
+<details>
 Two basic kinds of indices:
 
 - **Ordered indices:**  search keys are stored in sorted order
@@ -263,6 +266,8 @@ Databases can store data types such as lines, polygons, in addition to raster im
 
     *Spatial join* 
 
+</details>
+<hr/>
 
 ## SQL
 
